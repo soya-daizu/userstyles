@@ -64,6 +64,7 @@
   --text-link: @accent-color;
   --text-visited: lighten(saturate(@accent-color, -20%), -20%);
   --text-invert: @base;
+  --text-muted: @subtext1;
   --background-primary: @base;
   --background-secondary: @crust;
   --background-tertiary: @mantle;
@@ -74,6 +75,8 @@
   --background-warning: fadeout(@maroon, 90%);
   --background-critical: fadeout(@red, 90%);
   --background-success: fadeout(@green, 90%);
+  --background-del: fadeout(@red, 20%);
+  --background-ins: fadeout(@green, 20%);
   --border-primary: @surface2;
   --border-secondary: @surface1;
   --button-primary-default: @text;
